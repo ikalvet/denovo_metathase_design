@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+cd /root
+git clone https://github.com/outpace-bio/DAlphaBall.git
+cd DAlphaBall/src
+make
